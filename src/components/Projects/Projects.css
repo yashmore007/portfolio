@@ -1,0 +1,37 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 22vw;
+  background-color: #92adf7;
+}
+
+.container div{
+    width: 72vw;
+    height: 103px;
+    background-color: rgb(221, 241, 247);
+    margin-top: 23px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+
+.container div h3, .container div a{
+   margin-top: 39px;
+   /* color: white; */
+}
+
+.container div a{
+
+  text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container div{
+     width: 65vw;
+     
+ }
+}
